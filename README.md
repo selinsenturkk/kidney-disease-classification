@@ -27,12 +27,12 @@ Modelleme aşamasına geçilmeden önce verinin iç yapısı incelendiğinde, ö
 ### Korelasyon Analizi
 Bağımsız değişkenlerin hastalık durumuyla (Class) olan ilişkisi incelendiğinde, maksimum korelasyon katsayısının yalnızca **0.04** seviyesinde kaldığı görülmüştür. Bu, veride modeli yönlendirecek güçlü bir "sinyal" olmadığını gösterir.
 
-<img src="korelasyon_matrisi.png" alt="Korelasyon Matrisi" width="500">
+<img src="/images/korelasyon_matrisi.png" alt="Korelasyon Matrisi" width="500">
 
 ### Sınıfların Örtüşme Durumu (KDE Plot)
 Hastalık teşhisinde kritik rol oynaması beklenen 'Kan Üresi (Bu)' gibi değişkenlerin dağılımına bakıldığında, sağlıklı ve hasta bireylerin verilerinin %100'e yakın oranda üst üste bindiği (overlap) kanıtlanmıştır.
 
-<img src="KDE_plot.png" alt="KDE plot" width="500">
+<img src="/images/KDE_plot.png" alt="KDE plot" width="500">
 
 ---
 
@@ -42,17 +42,17 @@ Veri seti %80 Eğitim ve %20 Test olarak ayrılmış, doğrusal olmayan karmaş�
 ### Karmaşıklık Matrisi (Confusion Matrix)
 Modelin test verisi üzerindeki tahminleri incelendiğinde, %50.51'lik bir Doğruluk Oranı (Accuracy) elde edilmiştir. Confusion Matrix, modelin rastgele (yazı-tura) tahminde bulunduğunu açıkça göstermektedir.
 
-<img src="confusion_matrix.png" alt="Confusion Matrix" width="500">
+<img src="/images/confusion_matrix.png" alt="Confusion Matrix" width="500">
 
 ### Özellik Önemi (Feature Importance)
 Random Forest'ın bilgi kazancına (Information Gain) göre yaptığı özellik sıralamasında, hiçbir klinik değerin model üzerinde baskın bir karar mekanizması kuramadığı (en yüksek ağırlığın %8'de kaldığı) görülmüştür.
 
-<img src="feature_importance.png" alt="Feature Importance" width="500">
+<img src="/images/feature_importance.png" alt="Feature Importance" width="500">
 
 ### ROC Eğrisi ve AUC Değeri
 Modelin ayırt edicilik gücünü ölçen ROC eğrisi, rastgele tahmin çizgisiyle birebir aynı eksende ilerlemiş ve AUC değeri **0.49** olarak hesaplanmıştır.
 
-<img src="roc_egrisi.png" alt="Roc Egrisi" width="500">
+<img src="/images/roc_egrisi.png" alt="Roc Egrisi" width="500">
 
 ---
 
@@ -65,11 +65,4 @@ Ancak bu projede gerçekleştirilen derinlemesine veri analizi ve Random Forest 
 
 ---
 
-## 6. Kurulum ve Kullanım
-Projeyi kendi ortamınızda çalıştırmak için:
-1. Depoyu klonlayın: `git clone https://github.com/selinsenturkk/kidney-disease-classification.git`
-2. Gerekli kütüphaneleri yükleyin: `pip install pandas numpy scikit-learn matplotlib seaborn`
-3. `Kidney_Disease_Classification_RF.ipynb` dosyasını Jupyter Notebook veya VS Code üzerinden çalıştırın.
-
----
 **Proje Sunum Videosu:** [YouTube Linki Buraya Eklenecek]
