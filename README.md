@@ -17,7 +17,7 @@ Klinik teşhis ve karar destek sistemlerinde makine öğrenmesi kullanımı gide
 
 Veri seti, herhangi bir eksik değer (NaN) barındırmayan ve sınıf dengesizliği (class imbalance) problemi olmayan son derece temiz bir yapıya sahiptir.
 
-<img src="sinif_dagilimi.png" alt="Sınıf Dağılımı" width="500">
+<img src="/images/sinif_dagilimi.png" alt="Sınıf Dağılımı" width="500">
 
 ---
 
