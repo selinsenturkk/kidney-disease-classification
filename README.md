@@ -50,7 +50,7 @@ Random Forest'ın bilgi kazancına (Information Gain) göre yaptığı özellik 
 <img src="/images/feature_importance.png" alt="Feature Importance" width="500">
 
 ### ROC Eğrisi ve AUC Değeri
-Modelin ayırt edicilik gücünü ölçen ROC eğrisi, rastgele tahmin çizgisiyle birebir aynı eksende ilerlemiş ve AUC değeri **0.49** olarak hesaplanmıştır.
+Modelin ayırt edicilik gücünü ölçen ROC eğrisi, rastgele tahmin çizgisiyle birebir aynı eksende ilerlemiş ve AUC değeri **0.52** olarak hesaplanmıştır.
 
 <img src="/images/roc_egrisi.png" alt="Roc Egrisi" width="500">
 
