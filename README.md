@@ -65,4 +65,4 @@ Ancak bu projede gerçekleştirilen derinlemesine veri analizi ve Random Forest 
 
 ---
 
-**Proje Sunum Videosu:** [https://www.youtube.com/watch?v=D8yvRZ5TG7c]
+**Proje Sunum Videosu:** https://www.youtube.com/watch?v=D8yvRZ5TG7c
